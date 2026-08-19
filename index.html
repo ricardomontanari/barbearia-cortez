@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbearia Cortez — Corte, barba e navalha</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#" class="logo">Cortez</a>
+      <nav class="nav" id="siteNav">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Clientes</a>
+        <a href="#contato">Contato</a>
+        <a href="#contato" class="btn btn-ghost nav-cta-mobile">Agendar horário</a>
+      </nav>
+      <a href="#contato" class="btn btn-ghost nav-cta">Agendar horário</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-stripe" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Barbearia de bairro desde 2015</p>
+        <h1>Um corte bem-feito<br>não sai de moda.</h1>
+        <p class="hero-sub">Tesoura, navalha e paciência. Cada cliente sai da cadeira com o corte que veio buscar — sem pressa, sem atalho.</p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-primary">Agendar horário</a>
+          <a href="#servicos" class="btn btn-text">Ver serviços ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="services">
+      <div class="section-head">
+        <p class="eyebrow">Serviços</p>
+        <h2>O que sai da cadeira</h2>
+      </div>
+      <ul class="menu">
+        <li class="menu-item">
+          <div class="menu-line">
+            <span class="menu-name">Corte tesoura &amp; máquina</span>
+            <span class="menu-dots" aria-hidden="true"></span>
+            <span class="menu-price">R$ 45</span>
+          </div>
+          <p class="menu-desc">Do clássico ao degradê. Inclui acabamento na navalha.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-line">
+            <span class="menu-name">Barba completa</span>
+            <span class="menu-dots" aria-hidden="true"></span>
+            <span class="menu-price">R$ 35</span>
+          </div>
+          <p class="menu-desc">Toalha quente, navalha e óleo pós-barba.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-line">
+            <span class="menu-name">Corte + barba</span>
+            <span class="menu-dots" aria-hidden="true"></span>
+            <span class="menu-price">R$ 70</span>
+          </div>
+          <p class="menu-desc">O combo mais pedido da casa.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-line">
+            <span class="menu-name">Sobrancelha na navalha</span>
+            <span class="menu-dots" aria-hidden="true"></span>
+            <span class="menu-price">R$ 15</span>
+          </div>
+          <p class="menu-desc">Rápido, sem cera, sem irritação.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="about">
+      <div class="about-text">
+        <p class="eyebrow">Desde 2015</p>
+        <h2>Três cadeiras, um padrão só.</h2>
+        <p>A Cortez começou pequena e continua pequena de propósito. Três cadeiras, três barbeiros, nenhum estagiário. Se você senta aqui, é um de nós que corta — do primeiro ao último cliente do dia.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">9</span>
+            <span class="stat-label">anos de casa</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">barbeiros fixos</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">6</span>
+            <span class="stat-label">dias por semana</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="testimonials">
+      <div class="section-head">
+        <p class="eyebrow">Clientes</p>
+        <h2>Quem senta, volta</h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial">
+          <p>"Corto o cabelo aqui há quatro anos. Nunca precisei explicar o que eu quero duas vezes."</p>
+          <cite>— Marcelo T.</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"A barba na navalha muda o resultado. Testei em outro lugar e voltei no mesmo mês."</p>
+          <cite>— Eduardo S.</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Ambiente sem pressa, sem fila enrolada. Chega, senta, sai satisfeito."</p>
+          <cite>— Bruno A.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact">
+      <div class="contact-inner">
+        <p class="eyebrow">Contato</p>
+        <h2>Marcar horário</h2>
+        <p class="contact-sub">Preencha e a gente confirma pelo WhatsApp.</p>
+
+        <form class="contact-form" id="contactForm">
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+          </div>
+          <div class="field">
+            <label for="telefone">WhatsApp</label>
+            <input type="tel" id="telefone" name="telefone" required placeholder="(45) 90000-0000">
+          </div>
+          <div class="field">
+            <label for="servico">Serviço</label>
+            <select id="servico" name="servico">
+              <option>Corte tesoura &amp; máquina</option>
+              <option>Barba completa</option>
+              <option>Corte + barba</option>
+              <option>Sobrancelha na navalha</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Solicitar horário</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+
+        <div class="contact-info">
+          <div>
+            <span class="info-label">Endereço</span>
+            <span>Rua das Palmeiras, 214 — Centro</span>
+          </div>
+          <div>
+            <span class="info-label">Horário</span>
+            <span>Ter a sáb, 9h às 19h</span>
+          </div>
+          <div>
+            <span class="info-label">WhatsApp</span>
+            <span>(45) 90000-0000</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Barbearia Cortez</span>
+    <span>© 2026 · Rua das Palmeiras, 214</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
